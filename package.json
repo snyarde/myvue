@@ -2,13 +2,16 @@
   "name": "myvue",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://snyarde.github.io/myvue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.4.3",
+    "gh-pages": "^2.1.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
